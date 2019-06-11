@@ -6,7 +6,8 @@ https://github.com/PerfectlySoft/Perfect-LDAP
 Currently there are following hardcoded values that i need to provide as input to make this work
 When i bind ldap with a user and then try to fetch users, then it is working
 
-HardCoded Values
+<b>HardCoded Values</b>
+
 let ldapUrl = "ldap://americas.ad.celestica.com"//"ldap://RootDSE"
 let passwordForBinding = "Password1!"
 let distinguishedName = "CN=Users,DC=Americas,DC=ad,DC=celestica,DC=com"
