@@ -8,12 +8,16 @@ When i bind ldap with a user and then try to fetch users, then it is working
 
 <b>HardCoded Values</b>
 
-let ldapUrl = "ldap://americas.ad.celestica.com"//"ldap://RootDSE"
+let ldapUrl = "ldap://americas.ad.celestica.com"
+
 let passwordForBinding = "Password1!"
+
 let distinguishedName = "CN=Users,DC=Americas,DC=ad,DC=celestica,DC=com"
+
 let userDistinguishedName = "CN=alice,CN=Users,DC=Americas,DC=ad,DC=celestica,DC=com"
 
-Pending Issues:
+
+<b>Pending Issues:</b>
 
 1. LDAP://RootDSE not working, giving "Can't Contact LDAP server"
 Not working with ldap client (Apache Directory Studio) as well
